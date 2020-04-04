@@ -1,0 +1,25 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protos";
+
+package messaging;
+
+service Messaging {
+  rpc Send (Message) returns (Response);
+}
+
+message Message {
+  string content = 1;
+  string sender  = 2;
+}
+
+message Response {
+  Status status = 1;
+  string message = 2;
+}
+
+enum Status {
+  Ok = 0;
+  Error = 1;
+}
+

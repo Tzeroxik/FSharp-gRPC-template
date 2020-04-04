@@ -1,0 +1,12 @@
+{
+"author": "Adriano Anastacio",
+"classifications": [ "gRPC", "Console" ],
+"name": "F# gRPC Starter",
+"identity": "Fsharp.Grpc.Starter",        // Unique name for this template
+"shortName": "grpcfs",                 // Short name that can be used on the cli
+"tags": {
+    "language": "F#"                       // Specify that this template is in C#.
+},
+"sourceName": "Fsharp.Grpc.Starter",      // Will replace the string 'Sayedha.StarterWeb' with the value provided via -n.
+"preferNameDirectory" : "true"
+}

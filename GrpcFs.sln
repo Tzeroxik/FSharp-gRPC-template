@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protos", "Protos\Protos.csproj", "{14775290-91F6-4CF7-BCF8-74998C143B3D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GrpcServer", "GrpcServer\GrpcServer.fsproj", "{B8F30561-4A97-494C-A1E0-2A598D41B498}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GrpcClient", "GrpcClient\GrpcClient.fsproj", "{71E80D30-CD46-4354-B252-2D2B11DF8D98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14775290-91F6-4CF7-BCF8-74998C143B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14775290-91F6-4CF7-BCF8-74998C143B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14775290-91F6-4CF7-BCF8-74998C143B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14775290-91F6-4CF7-BCF8-74998C143B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F30561-4A97-494C-A1E0-2A598D41B498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F30561-4A97-494C-A1E0-2A598D41B498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F30561-4A97-494C-A1E0-2A598D41B498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F30561-4A97-494C-A1E0-2A598D41B498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E80D30-CD46-4354-B252-2D2B11DF8D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E80D30-CD46-4354-B252-2D2B11DF8D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E80D30-CD46-4354-B252-2D2B11DF8D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E80D30-CD46-4354-B252-2D2B11DF8D98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
